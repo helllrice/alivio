@@ -1,0 +1,36 @@
+.works {
+    padding: 169px 0 51px 0;
+}
+
+.works-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-header-head {
+    max-width: 584px;
+    margin-right: 30px;
+}
+
+.works-title {
+    margin-bottom: -3px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+}
+
+.works-subtitle {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Georgia', serif;
+    line-height: 157%;
+    color: #01996D;
+}
+
+.works-header-content {
+    padding-top: 58px;
+    max-width: 671px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
