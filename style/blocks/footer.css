@@ -1,0 +1,18 @@
+.footer {
+    padding: 104px 0 144px;
+    background-color: #245852;
+    color: #fff;
+}
+
+.footer-logo + * {
+    margin-top: 74px;
+}
+.footer-nav {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-nav li + li {
+    margin-top: 60px;
+}
+

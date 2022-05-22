@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+    line-height: 1.5;
 }
 
 .none {
@@ -25,4 +26,8 @@ body {
     width: 1400px;
     padding: 0 15px;
     margin: auto;
+}
+
+.container-wide {
+    width: 1536px;
 }
