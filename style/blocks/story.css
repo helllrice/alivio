@@ -41,7 +41,7 @@
 }
 
 .story-video {
-    width: 895px;
+    max-width: 895px;
 }
 
 .story-video-btn {
@@ -70,3 +70,41 @@
     border-radius: 17px;
 }
 
+@media (max-width: 1199px) {
+    .story {
+        padding: 90px 0 90px;
+    }
+
+    .story-video {
+        margin-bottom: 40px;
+    }
+
+    .story-heading {
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    .story-text {
+        font-size: 20px;
+        line-height: 130%;
+    }
+}
+
+@media (max-width: 991px) {
+    .story {
+        padding: 60px 0 60px;
+    }
+
+    .story-row {
+        flex-direction: column-reverse;
+    }
+
+    .story-text {
+        font-size: 18px;
+    }
+
+    .story-heading {
+        font-size: 30px;
+    }
+
+}

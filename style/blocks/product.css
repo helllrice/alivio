@@ -63,5 +63,50 @@
     display: flex;
 }
 
+@media (max-width: 1299px) {
+    .product {
+        padding-top: 80px;
+    }
 
+    .product-img-wrapper {
+        flex: 1 0 auto;
+        flex-basis: 50%;
+    }
+
+    .product-content-subtitle {
+        font-size: 30px;
+        line-height: 130%;
+    }
+
+    .product-card {
+        top: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    .product {
+        padding-top: 40px;
+    }
+
+    .product-row {
+        flex-direction: column-reverse;
+    }
+
+    .product-card {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .product-img-wrapper {
+        flex: 1 0 auto;
+        flex-basis: 50%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+}
 

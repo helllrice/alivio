@@ -34,3 +34,20 @@
     font-weight: 500;
 }
 
+@media (max-width: 1399px) {
+    .works {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .works-header {
+        padding-bottom: 52px;
+        flex-direction: column;
+    }
+
+    .works-subtitle {
+        font-size: 30px;
+        line-height: 130%;
+    }
+}
+

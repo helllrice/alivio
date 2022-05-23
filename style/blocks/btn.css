@@ -22,3 +22,14 @@
 .btn-big, a.btn-big {
     min-height: 65px;
 }
+
+@media (max-width: 991px) {
+    .btn, a.btn {
+        padding: 0 30px;
+        min-height: 41px;
+    }
+
+    .btn-big, a.btn-big {
+        min-height: 55px;
+    }
+}
