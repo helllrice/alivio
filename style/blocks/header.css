@@ -44,6 +44,7 @@
 .header-login a {
     color: #000;
     transition: color .2s ease;
+    margin-top: -1px;
 }
 
 .header-login > * + * {
@@ -54,3 +55,30 @@
     color: #01996D;
 }
 
+@media (max-width: 1199px) {
+    .header-row {
+        justify-content: space-between;
+    }
+
+    .header-nav li + li {
+        margin-left: 50px;
+    }
+
+    .header-nav {
+        margin-left: 30px;
+    }
+
+    .header-login {
+        margin-left: 30px ;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-login {
+        display: none;
+    }
+}
