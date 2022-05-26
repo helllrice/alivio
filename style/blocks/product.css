@@ -93,8 +93,16 @@
     }
 
     .product-card {
-        left: 50%;
-        transform: translateX(-50%);
+        position: relative;
+        z-index: 2;
+        margin-top: -10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-content-subtitle {
+        font-size: 30px;
+        line-height: 130%;
     }
 
     .product-img-wrapper {
@@ -104,9 +112,19 @@
         margin: 0;
         text-align: center;
     }
+
+    .product-content-btn {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 500px) {
+    .product {
+        padding-bottom: 40px;
+    }
 
+    .product-card {
+        margin-top: -30% 15px 0;
+    }
 }
 
